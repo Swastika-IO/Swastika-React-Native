@@ -1,1 +1,2 @@
-# Swastika-React-Native
+# Swastika-Mobile-Apps
+Swastika Mobile Apps with React Native

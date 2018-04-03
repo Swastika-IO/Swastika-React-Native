@@ -1,0 +1,44 @@
+{
+  "name": "Swastika",
+  "version": "0.0.1",
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts/"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "prop-types": "15.6.0",
+    "react": "16.2.0",
+    "@aspnet/signalr": "1.0.0-preview1-final",
+    "react-native": "0.51.0",
+    "moment": "2.20.1",
+    "react-native-css": "^2.1.2",
+    "react-native-htmlview": "^0.12.1",
+    "react-native-keyboard-spacer": "0.4.1",
+    "react-native-linear-gradient": "2.4.0",
+    "react-native-progress-bar": "0.1.2",
+    "react-native-storage": "^0.2.2",
+    "react-native-svg": "6.0.1-rc.1",
+    "react-native-ui-kitten": "3.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "redux-logger": "^3.0.6",
+    "react-navigation": "1.0.0-beta.27"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.5",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
